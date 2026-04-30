@@ -1,0 +1,303 @@
+meta:
+  generated: '2026-04-30'
+  description: AI model benchmark scores and pricing — multiple independent sources
+    per value
+  sources:
+    artificial_analysis: https://artificialanalysis.ai/leaderboards/models
+    vals_ai: https://www.vals.ai/benchmarks
+    lm_arena: https://lmarena.ai
+    price_per_token: https://pricepertoken.com
+    deepseek_official: https://api-docs.deepseek.com/quick_start/pricing
+    hf_deepseek_v4: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
+    datacamp: https://www.datacamp.com/blog/deepseek-v4
+    officechai: https://officechai.com/ai/deepseek-v4-pro-deepseek-v4-flash-benchmarks-pricing/
+    venturebeat: https://venturebeat.com/technology/deepseek-v4-arrives-with-near-state-of-the-art-intelligence-at-1-6th-the-cost-of-opus-4-7-gpt-5-5
+    ofox: https://ofox.ai/blog/llm-leaderboard-best-ai-models-ranked-2026/
+    buildfastwithai: https://www.buildfastwithai.com/blogs/best-ai-models-leaderboard-april-2026-updated
+    codersera: https://codersera.com/blog/deepseek-v4-flash-deep-dive/
+    felloai: https://felloai.com/deepseek-pricing/
+    swebench_official: https://www.swebench.com/
+    hf_lmarena: https://huggingface.co/spaces/lmarena-ai/arena-leaderboard
+    marc0dev: https://www.marc0.dev/en/leaderboard
+    llm_stats: https://llm-stats.com
+benchmarks:
+- id: aa-intelligence-index
+  name: AA Intelligence Index
+  description: 'Artificial Analysis composite of 10 benchmarks (v4.0): GDPval-AA,
+    GPQA Diamond, Terminal-Bench Hard, SciCode, AA-LCR, AA-Omniscience, IFBench, HLE,
+    CritPt.'
+  scoring: 0-100 (integer)
+- id: vals-index
+  name: Vals Index
+  description: Vals AI composite weighted across finance, law, coding, and education
+    tasks.
+  scoring: Percentage (0-100)
+- id: arena-elo
+  name: LM Arena Elo
+  description: Crowd-sourced blind pairwise human preference rankings.
+  scoring: Elo rating (~1300-1550)
+- id: swe-bench-v
+  name: SWE-bench Verified
+  description: Software engineering — real GitHub issue resolution, verified subset.
+  scoring: Percentage (0-100)
+- id: mmlu-pro
+  name: MMLU-Pro
+  description: Multi-task language understanding, harder version with more reasoning.
+  scoring: Percentage (0-100)
+- id: gpqa-diamond
+  name: GPQA Diamond
+  description: Graduate-level science reasoning (physics, chemistry, biology).
+  scoring: Percentage (0-100)
+- id: terminal-bench
+  name: Terminal-Bench 2.0
+  description: Agentic terminal/DevOps task completion.
+  scoring: Percentage (0-100)
+- id: livecodebench
+  name: LiveCodeBench
+  description: Live coding benchmark — newly collected problems to prevent contamination.
+  scoring: Percentage (0-100)
+- id: swe-bench-pro
+  name: SWE-bench Pro
+  description: Harder software engineering benchmark (private repos, complex tasks).
+  scoring: Percentage (0-100)
+models:
+- name: GPT-5.5 (xhigh)
+  provider: OpenAI
+  release_date: '2026-04-23'
+  params: Unknown
+  type: frontier-closed
+  country: US
+  pricing:
+    input_per_m: 5.0
+    output_per_m: 30.0
+    note: Five reasoning effort levels available. xhigh = max effort.
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 60
+    source: artificial_analysis
+  - benchmark: arena-elo
+    score: 1504
+    source: lm_arena
+  - benchmark: swe-bench-v
+    score: 82.6
+    source: vals_ai
+  - benchmark: swe-bench-pro
+    score: 58.6
+    source: venturebeat
+  - benchmark: terminal-bench
+    score: 82.7
+    source: venturebeat
+- name: Claude Opus 4.7 (max)
+  provider: Anthropic
+  release_date: '2026-04-16'
+  params: Unknown
+  type: frontier-closed
+  country: US
+  pricing:
+    input_per_m: 5.0
+    output_per_m: 25.0
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 57
+    source: artificial_analysis
+  - benchmark: arena-elo
+    score: 1504
+    source: lm_arena
+  - benchmark: swe-bench-v
+    score: 82.0
+    source: vals_ai
+  - benchmark: swe-bench-pro
+    score: 64.3
+    source: venturebeat
+  - benchmark: terminal-bench
+    score: 69.4
+    source: venturebeat
+- name: Gemini 3.1 Pro Preview
+  provider: Google
+  release_date: '2026-02-19'
+  params: Unknown
+  type: frontier-closed
+  country: US
+  pricing:
+    input_per_m: 2.5
+    output_per_m: 10.0
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 57
+    source: artificial_analysis
+  - benchmark: arena-elo
+    score: 1493
+    source: lm_arena
+  - benchmark: swe-bench-v
+    score: 78.8
+    source: vals_ai
+  - benchmark: gpqa-diamond
+    score: 94.3
+    source: buildfastwithai
+  - benchmark: mmlu-pro
+    score: 91.0
+    source: officechai
+- name: GPT-5.4 (xhigh)
+  provider: OpenAI
+  release_date: '2026-03-05'
+  params: Unknown
+  type: frontier-closed
+  country: US
+  pricing:
+    input_per_m: 5.0
+    output_per_m: 25.0
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 57
+    source: artificial_analysis
+  - benchmark: arena-elo
+    score: 1482
+    source: lm_arena
+  - benchmark: swe-bench-v
+    score: 78.2
+    source: vals_ai
+  - benchmark: mmlu-pro
+    score: 87.5
+    source: officechai
+- name: DeepSeek V4 Pro (Max)
+  provider: DeepSeek
+  release_date: '2026-04-24'
+  params: 1.6T total / 49B active
+  type: open-weight
+  country: China
+  pricing:
+    input_per_m: 1.74
+    output_per_m: 1.74
+    note: 'Launch promo 75% off until May 31: $0.435 input, $0.87 output. Regular:
+      $1.74/$1.74.'
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 52
+    source: artificial_analysis
+  - benchmark: arena-elo
+    score: 1400
+    source: lm_arena
+    note: As of April 30, may change with more V4 battles
+  - benchmark: swe-bench-v
+    score: 80.6
+    source: deepseek_official
+  - benchmark: swe-bench-pro
+    score: 55.4
+    source: venturebeat
+  - benchmark: mmlu-pro
+    score: 87.5
+    source: officechai
+  - benchmark: gpqa-diamond
+    score: 90.1
+    source: datacamp
+  - benchmark: livecodebench
+    score: 93.5
+    source: deepseek_official
+  - benchmark: terminal-bench
+    score: 67.9
+    source: venturebeat
+  - benchmark: vals-index
+    score: 63.8
+    source: vals_ai
+    note: '#2 open-weight, 0.07% behind Kimi K2.6'
+- name: DeepSeek V4 Flash
+  provider: DeepSeek
+  release_date: '2026-04-24'
+  params: 284B total / 13B active
+  type: open-weight
+  country: China
+  pricing:
+    input_per_m: 0.14
+    output_per_m: 0.28
+    note: 'Cache-hit input: $0.014/M. 90% discount for repeated context.'
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 47
+    source: artificial_analysis
+  - benchmark: swe-bench-v
+    score: 79.0
+    source: deepseek_official
+  - benchmark: mmlu-pro
+    score: 86.2
+    source: officechai
+  - benchmark: livecodebench
+    score: 91.6
+    source: deepseek_official
+- name: DeepSeek V3.2
+  provider: DeepSeek
+  release_date: 2025-12
+  params: 685B total
+  type: open-weight
+  country: China
+  pricing:
+    input_per_m: 0.29
+    output_per_m: 0.42
+    note: 'Cache-hit input: $0.028/M. Entry-level frontier pricing.'
+  scores:
+  - benchmark: arena-elo
+    score: 1424
+    source: lm_arena
+  - benchmark: swe-bench-v
+    score: 73.0
+    source: marc0dev
+  - benchmark: swe-bench-pro
+    score: 48.0
+    source: marc0dev
+    note: Estimated, V3.2 not on latest pro leaderboard
+- name: Kimi K2.6 Thinking
+  provider: Moonshot AI
+  release_date: '2026-04-20'
+  params: 1.1T total
+  type: open-weight
+  country: China
+  pricing:
+    input_per_m: 0.6
+    output_per_m: 2.5
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 54
+    source: artificial_analysis
+  - benchmark: vals-index
+    score: 63.9
+    source: vals_ai
+    note: '#1 open-weight on Vals Index'
+  - benchmark: swe-bench-pro
+    score: 58.6
+    source: buildfastwithai
+  - benchmark: swe-bench-v
+    score: 74.5
+    source: vals_ai
+  - benchmark: terminal-bench
+    score: 57.3
+    source: vals_ai
+- name: MiMo V2.5 Pro
+  provider: Xiaomi
+  release_date: 2026-04
+  params: Unknown
+  type: open-weight
+  country: China
+  pricing:
+    input_per_m: 0.3
+    output_per_m: 0.6
+  scores:
+  - benchmark: aa-intelligence-index
+    score: 54
+    source: artificial_analysis
+  - benchmark: swe-bench-v
+    score: 78.0
+    source: buildfastwithai
+    note: Estimated from practical benchmarks
+- name: Qwen 3.5 27B
+  provider: Alibaba
+  release_date: 2026-04
+  params: 27B
+  type: open-weight
+  country: China
+  pricing:
+    input_per_m: 0.15
+    output_per_m: 0.3
+  scores:
+  - benchmark: vals-index
+    score: 55.0
+    source: vals_ai
+    note: '#22 of 46 on Vals Index'
