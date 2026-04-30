@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 1276" style="background:#fff; font-family:Arial,Helvetica,sans-serif;">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="200" y="28" fill="#111" font-size="20" font-weight="bold">AI Benchmark Scores — April 30, 2026</text>
+<text x="200" y="46" fill="#666" font-size="12">DeepSeek V4 lineup vs US frontier. Higher = better. Sources: AA, Vals AI, DeepSeek, VentureBeat.</text>
+<text x="188" y="142" text-anchor="end" fill="#333" font-size="14" font-weight="bold">AA Intelligence Index</text>
+<rect x="200" y="60" width="433" height="22" rx="3" fill="#E86A17" opacity="0.9"/>
+<text x="639.3333333333333" y="75" fill="#333" font-size="12" font-weight="bold">52.0</text>
+<rect x="200" y="86" width="392" height="22" rx="3" fill="#F4A261" opacity="0.9"/>
+<text x="597.6666666666667" y="101" fill="#333" font-size="12" font-weight="bold">47.0</text>
+<rect x="200" y="112" width="450" height="22" rx="3" fill="#2A9D8F" opacity="0.9"/>
+<text x="656.0" y="127" fill="#333" font-size="12" font-weight="bold">54.0</text>
+<rect x="200" y="138" width="500" height="22" rx="3" fill="#264653" opacity="0.9"/>
+<text x="706.0" y="153" fill="#333" font-size="12" font-weight="bold">60.0</text>
+<rect x="200" y="164" width="475" height="22" rx="3" fill="#8338EC" opacity="0.9"/>
+<text x="681.0" y="179" fill="#333" font-size="12" font-weight="bold">57.0</text>
+<rect x="200" y="190" width="475" height="22" rx="3" fill="#3A86FF" opacity="0.9"/>
+<text x="681.0" y="205" fill="#333" font-size="12" font-weight="bold">57.0</text>
+<text x="188" y="338" text-anchor="end" fill="#333" font-size="14" font-weight="bold">SWE-bench Verified</text>
+<rect x="200" y="256" width="488" height="22" rx="3" fill="#E86A17" opacity="0.9"/>
+<text x="693.8934624697335" y="271" fill="#333" font-size="12" font-weight="bold">80.6</text>
+<rect x="200" y="282" width="478" height="22" rx="3" fill="#F4A261" opacity="0.9"/>
+<text x="684.2082324455206" y="297" fill="#333" font-size="12" font-weight="bold">79.0</text>
+<rect x="200" y="308" width="451" height="22" rx="3" fill="#2A9D8F" opacity="0.9"/>
+<text x="656.9685230024213" y="323" fill="#333" font-size="12" font-weight="bold">74.5</text>
+<rect x="200" y="334" width="500" height="22" rx="3" fill="#264653" opacity="0.9"/>
+<text x="706.0" y="349" fill="#333" font-size="12" font-weight="bold">82.6</text>
+<rect x="200" y="360" width="496" height="22" rx="3" fill="#8338EC" opacity="0.9"/>
+<text x="702.3680387409202" y="375" fill="#333" font-size="12" font-weight="bold">82.0</text>
+<rect x="200" y="386" width="477" height="22" rx="3" fill="#3A86FF" opacity="0.9"/>
+<text x="682.9975786924939" y="401" fill="#333" font-size="12" font-weight="bold">78.8</text>
+<text x="188" y="534" text-anchor="end" fill="#333" font-size="14" font-weight="bold">SWE-bench Pro</text>
+<rect x="200" y="452" width="431" height="22" rx="3" fill="#E86A17" opacity="0.9"/>
+<text x="636.7931570762053" y="467" fill="#333" font-size="12" font-weight="bold">55.4</text>
+<text x="204" y="493" fill="#999" font-size="12">—</text>
+<rect x="200" y="504" width="456" height="22" rx="3" fill="#2A9D8F" opacity="0.9"/>
+<text x="661.6765163297046" y="519" fill="#333" font-size="12" font-weight="bold">58.6</text>
+<rect x="200" y="530" width="456" height="22" rx="3" fill="#264653" opacity="0.9"/>
+<text x="661.6765163297046" y="545" fill="#333" font-size="12" font-weight="bold">58.6</text>
+<rect x="200" y="556" width="500" height="22" rx="3" fill="#8338EC" opacity="0.9"/>
+<text x="706.0" y="571" fill="#333" font-size="12" font-weight="bold">64.3</text>
+<text x="204" y="597" fill="#999" font-size="12">—</text>
+<text x="188" y="730" text-anchor="end" fill="#333" font-size="14" font-weight="bold">MMLU-Pro</text>
+<rect x="200" y="648" width="481" height="22" rx="3" fill="#E86A17" opacity="0.9"/>
+<text x="686.7692307692307" y="663" fill="#333" font-size="12" font-weight="bold">87.5</text>
+<rect x="200" y="674" width="474" height="22" rx="3" fill="#F4A261" opacity="0.9"/>
+<text x="679.6263736263736" y="689" fill="#333" font-size="12" font-weight="bold">86.2</text>
+<text x="204" y="715" fill="#999" font-size="12">—</text>
+<text x="204" y="741" fill="#999" font-size="12">—</text>
+<text x="204" y="767" fill="#999" font-size="12">—</text>
+<rect x="200" y="778" width="500" height="22" rx="3" fill="#3A86FF" opacity="0.9"/>
+<text x="706.0" y="793" fill="#333" font-size="12" font-weight="bold">91.0</text>
+<text x="188" y="926" text-anchor="end" fill="#333" font-size="14" font-weight="bold">Terminal-Bench 2.0</text>
+<rect x="200" y="844" width="411" height="22" rx="3" fill="#E86A17" opacity="0.9"/>
+<text x="616.5199516324062" y="859" fill="#333" font-size="12" font-weight="bold">67.9</text>
+<text x="204" y="885" fill="#999" font-size="12">—</text>
+<rect x="200" y="896" width="346" height="22" rx="3" fill="#2A9D8F" opacity="0.9"/>
+<text x="552.4328899637242" y="911" fill="#333" font-size="12" font-weight="bold">57.3</text>
+<rect x="200" y="922" width="500" height="22" rx="3" fill="#264653" opacity="0.9"/>
+<text x="706.0" y="937" fill="#333" font-size="12" font-weight="bold">82.7</text>
+<rect x="200" y="948" width="420" height="22" rx="3" fill="#8338EC" opacity="0.9"/>
+<text x="625.5888754534461" y="963" fill="#333" font-size="12" font-weight="bold">69.4</text>
+<text x="204" y="989" fill="#999" font-size="12">—</text>
+<text x="188" y="1122" text-anchor="end" fill="#333" font-size="14" font-weight="bold">LiveCodeBench</text>
+<rect x="200" y="1040" width="500" height="22" rx="3" fill="#E86A17" opacity="0.9"/>
+<text x="706.0" y="1055" fill="#333" font-size="12" font-weight="bold">93.5</text>
+<rect x="200" y="1066" width="490" height="22" rx="3" fill="#F4A261" opacity="0.9"/>
+<text x="695.8395721925133" y="1081" fill="#333" font-size="12" font-weight="bold">91.6</text>
+<text x="204" y="1107" fill="#999" font-size="12">—</text>
+<text x="204" y="1133" fill="#999" font-size="12">—</text>
+<text x="204" y="1159" fill="#999" font-size="12">—</text>
+<text x="204" y="1185" fill="#999" font-size="12">—</text>
+<rect x="790" y="70" width="14" height="14" rx="2" fill="#E86A17"/>
+<text x="810" y="82" fill="#444" font-size="12">DeepSeek V4 Pro</text>
+<rect x="790" y="90" width="14" height="14" rx="2" fill="#F4A261"/>
+<text x="810" y="102" fill="#444" font-size="12">DeepSeek V4 Flash</text>
+<rect x="790" y="110" width="14" height="14" rx="2" fill="#2A9D8F"/>
+<text x="810" y="122" fill="#444" font-size="12">Kimi K2.6</text>
+<rect x="790" y="130" width="14" height="14" rx="2" fill="#264653"/>
+<text x="810" y="142" fill="#444" font-size="12">GPT-5.5</text>
+<rect x="790" y="150" width="14" height="14" rx="2" fill="#8338EC"/>
+<text x="810" y="162" fill="#444" font-size="12">Claude Opus 4.7</text>
+<rect x="790" y="170" width="14" height="14" rx="2" fill="#3A86FF"/>
+<text x="810" y="182" fill="#444" font-size="12">Gemini 3.1 Pro</text>
+</svg>

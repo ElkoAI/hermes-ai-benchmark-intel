@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 372" style="background:#fff; font-family:Arial,Helvetica,sans-serif;">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="220" y="28" fill="#111" font-size="18" font-weight="bold">API Cost per Million Tokens — April 2026</text>
+<text x="220" y="46" fill="#666" font-size="12">Blended cost: output + (input ÷ 3). Lower = cheaper.</text>
+<line x1="220" y1="50" x2="220" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="220" y="44" text-anchor="middle" fill="#999" font-size="10">$0</text>
+<line x1="275" y1="50" x2="275" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="275" y="44" text-anchor="middle" fill="#999" font-size="10">$5</text>
+<line x1="330" y1="50" x2="330" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="330" y="44" text-anchor="middle" fill="#999" font-size="10">$10</text>
+<line x1="385" y1="50" x2="385" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="385" y="44" text-anchor="middle" fill="#999" font-size="10">$15</text>
+<line x1="440" y1="50" x2="440" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="440" y="44" text-anchor="middle" fill="#999" font-size="10">$20</text>
+<line x1="495" y1="50" x2="495" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="495" y="44" text-anchor="middle" fill="#999" font-size="10">$25</text>
+<line x1="550" y1="50" x2="550" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="550" y="44" text-anchor="middle" fill="#999" font-size="10">$30</text>
+<line x1="604" y1="50" x2="604" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="604" y="44" text-anchor="middle" fill="#999" font-size="10">$35</text>
+<text x="212" y="76" text-anchor="end" fill="#333" font-size="12" font-weight="bold">GPT-5.5</text>
+<rect x="220" y="60" width="348" height="24" rx="3" fill="#264653" opacity="0.85"/>
+<text x="573.8260869565217" y="76" fill="#333" font-size="12" font-weight="bold">$31.67/M</text>
+<text x="850" y="76" text-anchor="end" fill="#999" font-size="11">🇺🇸</text>
+<text x="212" y="104" text-anchor="end" fill="#333" font-size="12" font-weight="bold">Claude Opus 4.7</text>
+<rect x="220" y="88" width="293" height="24" rx="3" fill="#264653" opacity="0.85"/>
+<text x="518.9061784897026" y="104" fill="#333" font-size="12" font-weight="bold">$26.67/M</text>
+<text x="850" y="104" text-anchor="end" fill="#999" font-size="11">🇺🇸</text>
+<text x="212" y="132" text-anchor="end" fill="#333" font-size="12" font-weight="bold">Gemini 3.1 Pro</text>
+<rect x="220" y="116" width="119" height="24" rx="3" fill="#264653" opacity="0.85"/>
+<text x="344.99313501144167" y="132" fill="#333" font-size="12" font-weight="bold">$10.83/M</text>
+<text x="850" y="132" text-anchor="end" fill="#999" font-size="11">🇺🇸</text>
+<text x="212" y="160" text-anchor="end" fill="#333" font-size="12" font-weight="bold">GPT-5.4</text>
+<rect x="220" y="144" width="293" height="24" rx="3" fill="#264653" opacity="0.85"/>
+<text x="518.9061784897026" y="160" fill="#333" font-size="12" font-weight="bold">$26.67/M</text>
+<text x="850" y="160" text-anchor="end" fill="#999" font-size="11">🇺🇸</text>
+<text x="212" y="188" text-anchor="end" fill="#333" font-size="12" font-weight="bold">Kimi K2.6</text>
+<rect x="220" y="172" width="30" height="24" rx="3" fill="#E86A17" opacity="0.85"/>
+<text x="255.6567505720824" y="188" fill="#333" font-size="12" font-weight="bold">$2.70/M</text>
+<text x="850" y="188" text-anchor="end" fill="#999" font-size="11">🇨🇳</text>
+<text x="212" y="216" text-anchor="end" fill="#333" font-size="12" font-weight="bold">DeepSeek V4 Pro</text>
+<rect x="220" y="200" width="25" height="24" rx="3" fill="#E86A17" opacity="0.85"/>
+<text x="251.4828375286041" y="216" fill="#333" font-size="12" font-weight="bold">$2.32/M</text>
+<text x="850" y="216" text-anchor="end" fill="#999" font-size="11">🇨🇳</text>
+<text x="212" y="244" text-anchor="end" fill="#333" font-size="12" font-weight="bold">DeepSeek V3.2</text>
+<rect x="220" y="228" width="6" height="24" rx="3" fill="#E86A17" opacity="0.85"/>
+<text x="231.67505720823797" y="244" fill="#333" font-size="12" font-weight="bold">$0.52/M</text>
+<text x="850" y="244" text-anchor="end" fill="#999" font-size="11">🇨🇳</text>
+<text x="212" y="272" text-anchor="end" fill="#333" font-size="12" font-weight="bold">MiMo V2.5 Pro</text>
+<rect x="220" y="256" width="8" height="24" rx="3" fill="#E86A17" opacity="0.85"/>
+<text x="233.6887871853547" y="272" fill="#333" font-size="12" font-weight="bold">$0.70/M</text>
+<text x="850" y="272" text-anchor="end" fill="#999" font-size="11">🇨🇳</text>
+<text x="212" y="300" text-anchor="end" fill="#333" font-size="12" font-weight="bold">DeepSeek V4 Flash</text>
+<rect x="220" y="284" width="4" height="24" rx="3" fill="#E86A17" opacity="0.85"/>
+<text x="229.58810068649885" y="300" fill="#333" font-size="12" font-weight="bold">$0.33/M</text>
+<text x="850" y="300" text-anchor="end" fill="#999" font-size="11">🇨🇳</text>
+<text x="220" y="332" fill="#888" font-size="11">Light bars = Chinese open-weight. Dark bars = US closed frontier.</text>
+</svg>
